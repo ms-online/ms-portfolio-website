@@ -4,4 +4,5 @@
 
 ```
 npm install
+node run sass
 ```

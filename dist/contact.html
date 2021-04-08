@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>小仙｜联系方式</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header id="header-inner">
+      <div class="container">
+        <!-- 导航栏 -->
+        <nav id="main-nav">
+          <img src="img/logo.png" alt="小仙" id="logo" />
+          <ul>
+            <li><a href="index.html">主页</a></li>
+            <li><a href="about.html">个人简介</a></li>
+            <li><a href="work.html">项目展示</a></li>
+            <li><a href="contact.html" class="current">联系方式</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- section a :form表单 -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">联系方式</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">填写以下信息联系我</p>
+        <form action="">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="姓名"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input weixin-input"
+              placeholder="微信"
+              name="weixin"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="邮箱"
+              name="email"
+            />
+            <input
+              type="number"
+              class="text-input phone-input"
+              placeholder="手机号码"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="请输入你的留言"
+              name="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-dark my-2">提交</button>
+        </form>
+      </div>
+    </section>
+    <!-- section b:联系方式 -->
+    <section id="contact-b" class="bg-main py-4">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>邮箱</h3>
+            <p>xiaoxian@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>电话</h3>
+            <p>（028）12345678</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>地址</h3>
+            <p>成都市武侯区人民南路</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="container footer-content">
+        <p>Copyright &copy; 2021, 老吴与小仙</p>
+        <div class="social">
+          <i class="fab fa-weixin"></i>
+          <i class="fab fa-qq"></i>
+          <i class="fab fa-weibo"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
